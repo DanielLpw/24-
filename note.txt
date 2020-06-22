@@ -1,0 +1,9 @@
+
+from itertools import product     #生成字符的组合用
+
+
+eval（） 输出值，计算用
+
+
+from itertools import permutations    #生成所有排序
+card_set = [card_s for card_s in permutations(new_cards)]    #排序   new_cards 是[x,y,z,t]  list
